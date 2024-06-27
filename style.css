@@ -1,0 +1,62 @@
+
+
+.FLAG{
+
+    position: absolute;
+    left: 500px;
+    top: 150px;
+
+
+}
+
+.flag-one{
+    height: 70px;
+    width: 300px;
+    background-color: orange;
+}
+.flag-two{
+    height: 70px;
+    width: 300px;
+    background-color: white;
+}
+
+.flag-three{
+    height: 70px;
+    width: 300px;
+    background-color: green;
+}
+.stick{
+    height: 450px;
+    width: 1%;
+    background-color:white;
+    position: relative;
+    left: 480px;
+    top: 135px;
+    border-radius: 5px;
+   
+}
+
+
+
+
+body{
+    background-color: black;
+}
+.ashokechkra{
+    position: relative;
+    left: 13px;
+    top: -5px;
+    display: grid;
+    justify-content: center;
+    animation: spin 1s linear infinite;
+    
+}
+
+@keyframes spin{
+    100%{
+             transform: rotate(360deg);
+       
+    }
+
+}
+
